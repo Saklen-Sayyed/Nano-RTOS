@@ -1,0 +1,48 @@
+# ============================================
+# STM32 / ARM / C / STM32CubeIDE .gitignore
+# ============================================
+
+# Build and output directories
+build/
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+
+# STM32CubeIDE metadata (large, auto-generated)
+.settings/
+.project
+.cproject
+.loadpath
+
+# Object files, temp files
+*.o
+*.d
+*.su
+*.gcno
+*.gcda
+*.gcov
+
+# Backup and temp files
+*~
+*.swp
+*.swo
+*.tmp
+
+# Generated code logs
+*.log
+
+# IDE specific
+.vscode/
+.idea/
+*.launch
+
+# Python virtual env (if used for scripts)
+venv/
+
+# Misc
+*.bak
+*.DS_Store
+Thumbs.db
